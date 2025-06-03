@@ -10,7 +10,7 @@ spring:
     show-sql: true
 
   kafka:
-    bootstrap-servers: ${SPRING_KAFKA_BOOTSTRAP_SERVERS:localhost:9092}
+    bootstrap-servers: localhost:9092
     consumer:
       group-id: crm-group
 
